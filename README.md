@@ -8,5 +8,5 @@ designed to allow you to read news from any location, while feeling as close to 
 
 Default username: admin, password: password.
 
-![](screenshots/0_ttrss_dashboard_small.png)
+[![](screenshots/0_ttrss_dashboard_small.png)](screenshots/0_ttrss_dashboard.png)
 
