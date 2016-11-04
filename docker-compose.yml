@@ -17,6 +17,9 @@ services:
             - front
             - back
             - default
+        tmpfs:
+            - /run
+            - /tmp
     
     db:
         image: postgres
