@@ -3,7 +3,7 @@ version: '2'
 services:
 
     main:
-        image: puffinrocks/ttrss
+        image: puffinrocks/ttrss:16.3
         depends_on:
             - db
         ports:
