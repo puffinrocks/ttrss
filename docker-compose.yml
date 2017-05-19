@@ -23,14 +23,14 @@ services:
         tmpfs:
             - /run
             - /tmp
-    
+
     db:
         image: postgres
         environment:
             - POSTGRES_DB=ttrss
             - POSTGRES_USER=ttrss
             - POSTGRES_PASSWORD=ttrss
-        volumes: 
+        volumes:
             - db_data:/var/lib/postgresql/data
 
 volumes:
